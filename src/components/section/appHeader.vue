@@ -58,9 +58,10 @@
     <img src="../../assets/img/img2.jpg" alt="">
   </div>
   <div class="scroll text-center">
-      <span class="arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
+      <span class="arrow"><i class="fas fa-arrow-down" aria-hidden="true"></i></span>
   </div>
 </div>
+<!-- end main header -->
 </header>
 </template>
 <script>
@@ -128,7 +129,7 @@ header nav .nav-3>li .btn{
 /* navbar end */
 /* main header start */
 .main-header{
-  padding: 80px 0 0;
+  padding: 50px 0 0;
 }
 .main-header .h-image{
   width: 350px;

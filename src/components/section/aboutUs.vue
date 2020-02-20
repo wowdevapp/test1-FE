@@ -2,7 +2,7 @@
     <div class="aboutUs">
        <div class="container">
            <div class="row">
-               <div class="col-md-6 text-center citycarosel">
+               <div class="col-md-6  citycarosel">
                    <div class="city-img"><img src="../../assets/img/city.jpg" alt="" class="city"></div>
                    <div class="mycarousel">
                             <div id="testimonial-slider" class="owl-carousel">
@@ -10,38 +10,100 @@
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilis
                                     </p>
-                                    <!-- <ul> 
-                                        <ul>
-                                            <li>icon</li>
-                                            <li>client name</li>
-                                        </ul>
-                                        <ul class="review">
-
-                                        </ul>
-                                    </ul>                             -->
+                                    <ul class="list-unstyled testimonial-bottom">
+                                        
+                                        <li class="avatar">
+                                            <ul class="list-unstyled avatarName">
+                                                <li class="img"><img src="../../assets/img/avatar1.jpg" alt=""></li>
+                                                <li class="name">SAM R.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="review">
+                                            <ul class="starReview list-unstyled">
+                                                <li class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                                <li class="nbr-review">28 reviews at yelp</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                                             
                                 </div>
             
                                 <div class="testimonial">
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilis
                                     </p>
-                                    <h3 class="title">KATRINA</h3>
-                                    <span class="post">Web Designer</span>
+                                    <ul class="list-unstyled testimonial-bottom">
+                                        
+                                        <li class="avatar">
+                                            <ul class="list-unstyled avatarName">
+                                                <li class="img"><img src="../../assets/img/avatar2.jpg" alt=""></li>
+                                                <li class="name">SAM R.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="review">
+                                            <ul class="starReview list-unstyled">
+                                                <li class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                                <li class="nbr-review">28 reviews at yelp</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </div>
             
                                 <div class="testimonial">
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilis
                                     </p>
-                                    <h3 class="title">JEREMY CLEN</h3>
-                                    <span class="post">Web Developer</span>
+                                    <ul class="list-unstyled testimonial-bottom">
+                                        
+                                        <li class="avatar">
+                                            <ul class="list-unstyled avatarName">
+                                                <li class="img"><img src="../../assets/img/avatar1.jpg" alt=""></li>
+                                                <li class="name">SAM R.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="review">
+                                            <ul class="starReview list-unstyled">
+                                                <li class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                                <li class="nbr-review">28 reviews at yelp</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </div>
                 </div>
-            </div>
+                </div>
                    </div>
-               </div>
-               <div class="col-md-6">
+                <div class="col-md-6 aboutus-right">
+                    <div class="span">
+                         01<span>ABOUT US</span> 
+                    </div>
+                    <div class="content">
+                        <h2>Let's make cities better</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Cumque distinctio accusamus quos recusandae unde, asperiores possimus rerum, 
+                            <br>
+                            quod porro eligendi accusantium nisi 
+                            vel vero voluptate perspiciatis nulla doloribus labore ipsum.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            <br>
 
+                            Cumque distinctio accusamus quos recusandae unde, asperiores possimus rerum, 
+                            quod porro eligendi accusantium nisi 
+                            vel vero voluptate perspiciatis nulla doloribus labore ipsum.
+                        </p>
+                        <hr>
+                        <ul class="more list-unstyled">
+                            <li class="image"><img style="height:40px;width:40px" src="../../assets/img/value.png" alt=""></li>
+                            <li>
+                                <ul class="list-unstyled">
+                                    <li>quod porro eligendi?</li>
+                                    <li ><a href="" style="color:#333456">Learn more about company</a>  <i class="fas fa-arrow-right" style="font-size:10px" aria-hidden="true"></i> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+               </div>
                </div>
            </div>
        </div>
@@ -55,6 +117,7 @@ export default {
  .aboutUs{
      padding-top: 100px;
  }
+ /* start carousel */
  #testimonial-slider{
     padding: 50px 20px 35px 20px;
     background: #fff;
@@ -164,16 +227,86 @@ export default {
 }
 .mycarousel{
     position: absolute;
-    bottom: -100px;
-    right: -107px;
+    bottom: -130px;
+    right: 35px;
     width: 500px;
     height: 300px;
 }
 .mycarousel #testimonial-slider {
-    padding: 50px 20px 35px 20px;
+   padding: 50px 20px 0px 20px; 
     background: #333456;
     text-align: center;
     color: #fff;
+    border-radius: 10px;
 }
+.mycarousel .testimonial-bottom>li{
+    float:left;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.mycarousel .testimonial-bottom>li .avatarName li{
+    display:inline-block;
+    margin: 0 0 0 20px;
+   
+}
+.mycarousel .testimonial-bottom>li .avatarName li.img{
+    width: 50px;
+    height: 50px;
+}
+.mycarousel .testimonial-bottom>li .avatarName li.img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+.mycarousel .testimonial-bottom>li.review{
+    float: right;
+}
+.mycarousel .testimonial-bottom>li.review .starReview{
+   margin-top: 10px;
+}
+.mycarousel .testimonial-bottom>li.review .starReview .stars,
+.mycarousel .testimonial-bottom>li.review .starReview  .nbr-review
+{
+    font-size: 10px;
+}
+/* end carousel */
+.aboutUs .aboutus-right .span{
+    margin: 0 0 0 80px
+}
+.aboutUs .aboutus-right span{
+    margin-left: 70px;
+    font-size: 12px ;
+    font-weight: bold;
+}
+
+.aboutUs .aboutus-right span::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    top: 9px;
+    left: 112px;
+    border-top: 1px solid black;
+
+}
+.aboutUs .aboutus-right .content{
+  margin: 0 0 0 80px
+}
+.aboutUs .aboutus-right .content h2{
+    margin-bottom: 30px;
+    color: #333456
+}
+.aboutUs .aboutus-right .content p{
+     margin-bottom: 30px;
+}
+.aboutUs .aboutus-right .content hr{
+   margin-bottom: 30px; 
+}
+.aboutUs .aboutus-right .content .more>li{
+    float: left;
+}
+.aboutUs .aboutus-right .content .more>li.image{
+    margin-right: 20px;
+}
+
 
 </style>
